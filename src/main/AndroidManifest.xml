@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hkr.muljoh.karstania">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Intro"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Exempel"></activity>
+        <activity android:name=".Slottet"></activity>
+        <activity android:name=".Alvskogen"></activity>
+        <activity android:name=".Duellen"></activity>
+        <activity android:name=".Grottan"></activity>
+        <activity android:name=".Handelsboden"></activity>
+        <activity android:name=".Kriget"></activity>
+        <activity android:name=".Spokhuset"></activity>
+        <activity android:name=".Staden"></activity>
+
+    </application>
+
+</manifest>
